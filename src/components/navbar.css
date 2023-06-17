@@ -1,0 +1,35 @@
+* {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+
+header {
+    background-color: bisque;
+    display: flex;
+}
+
+.logo__nav__container {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+
+nav {
+    background-color: azure;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    background-color: aquamarine;
+    width: 20%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
