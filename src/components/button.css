@@ -1,0 +1,9 @@
+.navbar__anchor{
+    background-color: rgb(139, 241, 207);
+    width: 20%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
