@@ -9,7 +9,7 @@ export const Navbar = () => {
             </div>
             <nav>
             <Button where='navbar__anchor' to='/main' text="Home" />
-            <Button where='navbar__anchor' to='#' text="Proyects"  />
+            <Button where='navbar__anchor' to='/products' text="Proyects"  />
             <Button where='navbar__anchor' to='#' text="About me"  />
             
             </nav>
