@@ -9,9 +9,9 @@ export const App = () => {
         <BrowserRouter>
         <Navbar/>
         <Routes>
-            <Route index path="/main" element={<ItemListContainer/>} />
-            <Route path="/products" element={<Products/>}/>
-            <Route path="/aboutme" element={<Aboutme/>}/>
+            <Route index path="/:categoryId" element={<ItemListContainer/>} />
+            <Route path="/:categoryId" element={<Products/>}/>
+            <Route path="/:categoryId" element={<Aboutme/>}/>
         </Routes>
         </BrowserRouter>
     )

@@ -8,9 +8,9 @@ export const Navbar = () => {
                 <img className="logo__nav"src={owl}></img>
             </div>
             <nav>
-            <Button where='navbar__anchor' to='/main' text="Home" />
-            <Button where='navbar__anchor' to='/products' text="Proyects"  />
-            <Button where='navbar__anchor' to='/aboutme' text="About me"  />
+            <Button where='navbar__anchor' to='/Home' text="Home" />
+            <Button where='navbar__anchor' to='/Products' text="Proyects"  />
+            <Button where='navbar__anchor' to='/Aboutme' text="About me"  />
             
             </nav>
         </header>
