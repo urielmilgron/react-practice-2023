@@ -1,6 +1,6 @@
-import owl from './../assets/owl.svg'
+import owl from "../../assets/owl.svg"
 import './navbar.css'
-import Button from './Button'
+import Button from '../Button/Button'
 export const Navbar = () => {
     return(
         <header>
@@ -10,7 +10,7 @@ export const Navbar = () => {
             <nav>
             <Button where='navbar__anchor' to='/main' text="Home" />
             <Button where='navbar__anchor' to='/products' text="Proyects"  />
-            <Button where='navbar__anchor' to='#' text="About me"  />
+            <Button where='navbar__anchor' to='/aboutme' text="About me"  />
             
             </nav>
         </header>
