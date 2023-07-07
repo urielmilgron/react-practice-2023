@@ -1,0 +1,12 @@
+.main__pageContainer{
+background-color: rgb(67, 165, 132);
+display: flex;
+justify-content: center;
+}
+.section__pageContainer{
+    background-color: aqua;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
