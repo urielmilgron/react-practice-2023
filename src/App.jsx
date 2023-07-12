@@ -1,6 +1,5 @@
 import { Navbar } from "./components/Navbar/Navbar"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Products from "./components/Products/Products"
 import ElementsPageContainer from "./components/ElementsPageContainer/ElementsPageContainer"
 
 export const App = () => {
@@ -8,9 +7,9 @@ export const App = () => {
         <BrowserRouter>
             <Navbar />
             <Routes>
-                <Route index path="/:categoryId" element={<ElementsPageContainer />} />
-                <Route path="/:categoryId" element={<ElementsPageContainer />} />
-                <Route path="/:categoryId" element={<ElementsPageContainer />} />
+                <Route path="/Home" element={<ElementsPageContainer page={"Home"} />} />
+                <Route path="/Proyects" element={<ElementsPageContainer page={"Proyects"} />} />
+                <Route path="/Aboutme" element={<ElementsPageContainer page={"About me"} />} />
             </Routes>
         </BrowserRouter>
     )

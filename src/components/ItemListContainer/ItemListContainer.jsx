@@ -13,7 +13,6 @@ export default function ItemListContainer() {
     //proyectos, si la función los obtiene, entonces los seteamos
     getProyects().then((proyects) => {
       setItems(proyects)
-      console.log(proyects)
     })
   }, [])
   return (

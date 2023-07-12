@@ -1,5 +1,4 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
 import './ElementsPageContainer.css'
 import Aboutme from '../Aboutme/Aboutme'
 import ItemListContainer from '../ItemListContainer/ItemListContainer'
@@ -19,17 +18,14 @@ function switchComponent(category) {
             return null;
     }
 }
-export default function ElementsPageContainer() {
-    //Uso los parámetros de la url para poner el nombre del componente en pantalla
-    const { categoryId } = useParams()
-    const category = categoryId == "Aboutme" ? "About me" : categoryId
+export default function ElementsPageContainer({page}) {
     return (
         <main className='main__pageContainer'>
             <section className='section__pageContainer'>
                 <h3 className='title__pageContainer'>
-                    {category}
+                    {page}
                 </h3>
-                {switchComponent(category)}
+                {switchComponent(page)}
             </section>
         </main>
     )
