@@ -1,0 +1,7 @@
+.listContainer__container{
+    display: flex;
+    background-color: blue;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

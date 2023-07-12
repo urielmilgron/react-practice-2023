@@ -2,11 +2,13 @@
 background-color: rgb(67, 165, 132);
 display: flex;
 justify-content: center;
+width: 100%;
 }
 .section__pageContainer{
     background-color: aqua;
-    width: 10%;
+    width: 95%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
