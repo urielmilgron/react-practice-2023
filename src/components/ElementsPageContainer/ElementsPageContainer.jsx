@@ -6,19 +6,21 @@ import ItemListContainer from '../ItemListContainer/ItemListContainer'
 import products from '../../asyncmock/asyncmock'
 import Home from '../Home/Home'
 
-function switchComponent(category){
-    switch(category){
+//Función que retorn un componente dependiendo del valor que tenga el parametro category
+function switchComponent(category) {
+    switch (category) {
         case "About me":
-            return <Aboutme/>;
+            return <Aboutme />;
         case "Proyects":
-            return <ItemListContainer items={products}/>;
+            return <ItemListContainer items={products} />;
         case "Home":
-            return <Home/>;
+            return <Home />;
         default:
             return null;
     }
 }
 export default function ElementsPageContainer() {
+    //Uso los parámetros de la url para poner el nombre del componente en pantalla
     const { categoryId } = useParams()
     const category = categoryId == "Aboutme" ? "About me" : categoryId
     return (

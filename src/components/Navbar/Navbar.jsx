@@ -11,7 +11,6 @@ export const Navbar = () => {
             <Button where='navbar__anchor' to='/Home' text="Home" />
             <Button where='navbar__anchor' to='/Proyects' text="Proyects"  />
             <Button where='navbar__anchor' to='/Aboutme' text="About me"  />
-            
             </nav>
         </header>
     )
