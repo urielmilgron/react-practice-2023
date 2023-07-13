@@ -8,7 +8,7 @@ export const Navbar = () => {
                 <img className="logo__nav"src={owl}></img>
             </div>
             <nav>
-            <Button where='navbar__anchor' to='/Home' text="Home" />
+            <Button where='navbar__anchor' to='/' text="Home" />
             <Button where='navbar__anchor' to='/Proyects' text="Proyects"  />
             <Button where='navbar__anchor' to='/Aboutme' text="About me"  />
             </nav>

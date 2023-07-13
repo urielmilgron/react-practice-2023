@@ -12,7 +12,7 @@ function switchComponent(category) {
             return <Aboutme />;
         case "Proyects":
             return <ItemListContainer items={products} />;
-        case "Home":
+        case "":
             return <Home />;
         default:
             return null;

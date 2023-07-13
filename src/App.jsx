@@ -7,7 +7,7 @@ export const App = () => {
         <BrowserRouter>
             <Navbar />
             <Routes>
-                <Route path="/Home" element={<ElementsPageContainer page={"Home"} />} />
+                <Route index path="/" element={<ElementsPageContainer page={"Home"} />} />
                 <Route path="/Proyects" element={<ElementsPageContainer page={"Proyects"} />} />
                 <Route path="/Aboutme" element={<ElementsPageContainer page={"About me"} />} />
             </Routes>
